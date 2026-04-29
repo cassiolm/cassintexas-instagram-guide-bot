@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: cassintexas-instagram-guide-bot
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /

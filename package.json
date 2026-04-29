@@ -1,0 +1,18 @@
+{
+  "name": "cassintexas-instagram-guide-bot",
+  "version": "1.0.0",
+  "description": "Instagram bot that sends a guide link by private reply when someone comments a trigger keyword.",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.19.2"
+  }
+}
